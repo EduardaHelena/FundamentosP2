@@ -179,8 +179,8 @@
 #-------------------------------------------
 # programa 58 -
 #fazer um modulo para receber um vetor como parametro e retornar outro sem repeticao
-#NAO PODE USAR APPEND!!!!!
-#get all
+#NAO PODE USAR APPEND na prova!!!!!
+#get all - tamanho fixo
 #varialvel tamanho
 #get all[] = vet[i]
 #tamanho +1
@@ -192,7 +192,7 @@
 #        for j in range(0, len(vetAux)):
 #            if vet[i] == vetAux[j]:
 #                achou = True
-#            if not achou:
+#            if not achou: (if achou == false)
 #                vetAux.append(vet(i))
 #
 #    return vetAux
@@ -202,9 +202,34 @@
 #for i in range(0,5):
 #    vet.append(int(input("eleme: ")))
 
-vetNovo = vetSemRep(vet)
-print "vet: ", vet
-print "vet novo", vetNovo
+#vetNovo = vetSemRep(vet)
+#print "vet: ", vet
+#print "vet novo", vetNovo
+#-------------------------------------------
+# PARAMETROS
+# valor (copia variavel original, não altera o original) x referencia (passa a propria variavel)
+# no python nao tem escolha, passa por REFERENCIA!!!! - IMPORTANTE!
+# Exemplo: 
+#
+#def vetSemRep(vet,x,y):
+#   print "vet: ", vet, "x", a, "y", b
+#   vet[i] = 99
+#   x = 9
+#   y = y + 1
+#print "vet: ", vet, "x", a, "y", b
+
+
+#vet[1,2,3]
+#a = 0
+#b = 0
+#vetSemRep(vet,a,b)
+#print "vet: ", vet, "x", a, "y", b
+#-------------------------------------------
+#PROGRAMA 59
+vet['a', 'b', 'c']
+print vet.count(vet[1])
+
+
 
     
 
