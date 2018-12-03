@@ -226,8 +226,65 @@
 #print "vet: ", vet, "x", a, "y", b
 #-------------------------------------------
 #PROGRAMA 59
-vet['a', 'b', 'c']
-print vet.count(vet[1])
+#vet['a', 'b', 'c']
+#print vet.count(vet[1])
+#-------------------------------------------
+#Lista de vetor e matriz
+
+#questao 1
+#Faça um programa em pascal para ler as notas de 100 alunos
+#e imprimir quantos alunos tiraram nota abaixo da media da turma e
+#quantos tiraram acima ou igual a media.
+
+#Baixas = 0
+#Altas = 0
+#notas = [0.0]*5
+#mediaTurma = 0
+#totalTurma = 0
+
+
+#for i in range (0, 5):
+#    nota = float(input("diga a media do aluno: "))
+#    notas[i] = nota
+#    totalTurma += notas[i]
+    
+#mediaTurma = totalTurma/5
+
+#for i in range(0, 5):
+#    if(notas[i] > mediaTurma):
+#        Altas +=1
+
+#    else:
+#        Baixas += 1
+#            
+#print "quantidade medias altas: ", Altas, "quantidade baixa: ", Baixas
+#print "Media turma", mediaTurma
+
+#-------------------------------------------
+#questao 2
+
+vet = [0]*5
+
+for i in range(0, 12):
+    numero = int(input("diga o elemento: "))
+    vet[i] = numero
+
+posicao1 = int(input("diga a posicao primeiro elemento: "))
+posicao2 = int(input("diga o posicao segundo  elemento: "))
+print "a soma é: ", SomaVetor(posicao1, posicao2, vet)
+
+def SomaVetor(x,y,vet):
+    
+    soma = vet[x] + vet[y]
+    return soma
+
+
+
+        
+    
+    
+    
+    
 
 
 
