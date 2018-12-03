@@ -263,20 +263,21 @@
 #-------------------------------------------
 #questao 2
 
-vet = [0]*5
-
-for i in range(0, 12):
-    numero = int(input("diga o elemento: "))
-    vet[i] = numero
-
-posicao1 = int(input("diga a posicao primeiro elemento: "))
-posicao2 = int(input("diga o posicao segundo  elemento: "))
-print "a soma é: ", SomaVetor(posicao1, posicao2, vet)
-
-def SomaVetor(x,y,vet):
+#qvet = [0]*5
+#qdef SomaVetor(x,y,vet):
     
-    soma = vet[x] + vet[y]
-    return soma
+#q    soma = vet[x] + vet[y]
+#q    return soma
+
+#qfor i in range(0, 5):
+#q    numero = int(input("diga o elemento: "))
+#q    vet[i] = numero
+#q
+#q posicao1 = int(input("diga a posicao primeiro elemento: "))
+#q posicao2 = int(input("diga o posicao segundo  elemento: "))
+#q print "a soma é: ", SomaVetor(posicao1, posicao2, vet)
+
+
 
 
 
