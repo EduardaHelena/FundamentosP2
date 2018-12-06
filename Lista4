@@ -131,7 +131,25 @@
 #for i in range(0, len(resultado)):
 #  print resultado[i]
 
+# -------------------------------------------------
+#Leia uma frase e imprima o total de vogais, o total de brancos e o total do resto.
+#Branco = 0
+#vogal = 0
+#resto = 0
+#frase = raw_input("frase:")
+#print frase
+#print len(frase)
+#for i in range (0 , len(frase)):
+#  if(frase[i].isspace()):
+#      Branco +=1
+#  elif(frase[i].isalpha()):
+#    if(frase[i] == "a" or frase[i] == "e" or frase[i] == "i" or frase[i] == "o" or frase[i] == "u"):
+#      vogal +=1
+#  else:
+#    resto +=1
 
-
+#print "branco: ", Branco
+#print "vogais: ", vogal
+#print "resto: ", resto
 
 
