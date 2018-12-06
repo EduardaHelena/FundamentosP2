@@ -173,4 +173,42 @@
 #print "resto: ", resto
 # -------------------------------------------------
 
+#Fazer um programa para ler dois vetores de 10 posições e colocar em um outro vetor de no máximo 20 posições a união dos elementos. 
+#Colocar em um vetor de 10 posições a intercecção dos dois vetores.
+
+#limite = 5
+#Vet1 = [0.0]*limite
+#Vet2 = [0.0]*limite
+#vetFinal = [0.0]*(limite*2)
+#vetIntesecao = [0.0]* limite
+#indiceFinal = 0
+
+#def Vet(vet):
+#  for i in range(0,len(vet)):
+#    numero = int(input("elemento:"))
+#    vet[i] = numero
+#  return vet
+
+#def VetGrande(vet, indice):
+#  for i in range(0,len(vet)):
+#    vetFinal[indice] = vet[i]
+#    indice += 1
+#  return indice 
+
+#def Intesecao(vet1, vet2):
+#  for i in range(0, len(vet1)):
+#    for j in range(0, len(vet2)):
+#      if(vet1[i] == vet2[j]):
+#        numero = vet1[i] 
+#        for i in range (0, len(vetIntesecao)):
+#          vetIntesecao[i] = numero
+#  return vetIntesecao
+
+#print Vet(Vet1)
+#print Vet(Vet2)
+#indiceFinal = VetGrande(Vet1, indiceFinal)
+#VetGrande(Vet2, indiceFinal)
+#print "Uniao: ", vetFinal
+#print Intesecao(Vet1, Vet2)
+# -------------------------------------------------
 
