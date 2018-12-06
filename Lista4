@@ -211,4 +211,49 @@
 #print "Uniao: ", vetFinal
 #print Intesecao(Vet1, Vet2)
 # -------------------------------------------------
+#Faça um programa para ler 50 valores de temperaturas em graus Celsius. #Transformar essas temperaturas em Farenheit e imprimir a media das temperaturas em Celsius e Farenheit e 
+#quantas temperaturas ficaram acima da media em Farenheit.
 
+#limite = 5
+#vetTempCelcius = [0.0]*limite
+#vetTempFarenheit = [0.0]*limite 
+#mediaC = 0
+#mediaF = 0
+
+#def VetTemperatura(vet):
+#  somaCelcius = 0
+#  for i in range(0,len(vet)):
+#    numero = int(input("temperatura em Celcius:"))
+#    vet[i] = numero
+#  return vet, somaCelcius
+
+#def Transformar(vet1):
+#  for i in range(0, len(vet1)):
+#    numero = vet1[i]
+#    numeroF = ((float(numero*9)/5) + 32)
+#    vetTempFarenheit[i] = numeroF
+#  return vetTempFarenheit
+
+#def Media(vet1):
+#  qtd = len(vet1)
+#  soma = 0
+#  for i in range(0, len(vet1)):
+#    numero = vet1[i]
+#    soma += numero
+#  return soma/qtd
+
+#def MediaQtd(vet1,media):
+#  qtd = 0 
+#  for i in range(0, len(vet1)):
+#    if(vet1[i] > media):
+#      qtd += 1
+#  return qtd
+
+  
+#VetTemperatura(vetTempCelcius)
+#print""
+#print "temperaturas em Farenheit: ", Transformar(vetTempCelcius)
+#mediaC = Media(vetTempCelcius)
+#mediaF = Media(vetTempFarenheit)
+#print "media celcius: ", mediaC, "media F: ", mediaF
+#print "quantidade de F acima da media: ", MediaQtd(vetTempFarenheit,mediaF)
