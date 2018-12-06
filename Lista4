@@ -123,6 +123,26 @@
 #print len(vetFinal)
 # -------------------------------------------------
 #Leia dois vetores de 15 posições cada, imprimir a soma dos elementos #dos vetores e a diferença dos elementos dos vetores.
+#vet1=[0.0]*15
+#vet2=[0.0]*15
+
+#def Vet(vet):
+#  for i in range(0,len(vet)):
+#    numero = int(input("elemento:"))
+#    vet[i] = numero
+#  return vet
+
+#def SomaVetor(vet):
+#  soma = 0
+#  for i in range(0,len(vet)):
+#    a = vet[i]
+#    soma=soma+a  
+#  return soma
+
+#Vet(vet1)
+#Vet(vet2)
+#print "soma vetor 1 + vetor 2:  ", SomaVetor(vet1) + SomaVetor(vet2)
+#print "diferença vetor 1 - vetor 2:  ",  SomaVetor(vet1) - SomaVetor(vet2)  
 # -------------------------------------------------
 #Leia uma frase e imprima as suas palavras.
 #
@@ -151,5 +171,6 @@
 #print "branco: ", Branco
 #print "vogais: ", vogal
 #print "resto: ", resto
+# -------------------------------------------------
 
 
