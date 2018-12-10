@@ -1,4 +1,4 @@
-#FaÁa um programa em pascal para ler as notas de 100 alunos e imprimir quantos alunos
+#Fa√ßa um programa em pascal para ler as notas de 100 alunos e imprimir quantos alunos
 #tiraram nota abaixo da media da turma e quantos tiraram acima ou igual a media.
 
 #soma = 0
@@ -22,7 +22,7 @@
 #
 #print "quantidadeMaior:", contMaior, "quantidadeMenor:", contMenor
 # -------------------------------------------------
-#Ler um vetor de 12 posiÁıes inteiras e depois ler dois n˙meros X e Y de 1 a 12. Imprimir a soma das posiÁıes X e Y do vetor.
+#Ler um vetor de 12 posi√ß√µes inteiras e depois ler dois n√∫meros X e Y de 1 a 12. Imprimir a soma das posi√ß√µes X e Y do vetor.
 
 #vetor = [0.0]*5
 
@@ -38,7 +38,7 @@
 
 #print "Soma igual a :", SomaVetor(a, b, notas)
 # -------------------------------------------------
-#Leia um vetor de 16 posiÁıes e troque as 8 primeiras posiÁıes pelas 8 ˙ltimas posiÁıes.
+#Leia um vetor de 16 posi√ß√µes e troque as 8 primeiras posi√ß√µes pelas 8 √∫ltimas posi√ß√µes.
 #Imprima o vetor original e o vetor trocado
 #numeros = [0.0]*16
 
@@ -57,7 +57,7 @@
 #print "Trocado: ", troca(numeros)
 # -------------------------------------------------
 
-#Preencha um vetor de 10 posiÁıes com os primeiros 10 n˙meros impares. No final imprima o vetor.
+#Preencha um vetor de 10 posi√ß√µes com os primeiros 10 n√∫meros impares. No final imprima o vetor.
 #numero = 1
 #vet = [0.0]*10
 #achou = False
@@ -73,8 +73,8 @@
 #
 #print vet
 # -------------------------------------------------
-#Ler um vetor de n˙meros inteiros de 30 posiÁıes. Depois, ler um n˙mero inteiro X,
-#imprimir quantas vezes o n˙mero X aparece no vetor.
+#Ler um vetor de n√∫meros inteiros de 30 posi√ß√µes. Depois, ler um n√∫mero inteiro X,
+#imprimir quantas vezes o n√∫mero X aparece no vetor.
 #numeros = [0.0]*10
 #
 #for i in range(0,10):
@@ -84,7 +84,7 @@
 #x = int(input("elemento:"))
 #print "aparece:", numeros.count(x)
 # -------------------------------------------------
-#Leia um vetor de 40 posiÁıes contar quantos elementos pares se encontram no vetor.
+#Leia um vetor de 40 posi√ß√µes contar quantos elementos pares se encontram no vetor.
 #numeros = [0.0]*10
 #qtdPares = 0
 #
@@ -97,8 +97,8 @@
 #print "aparece:", qtdPares
 #print numeros
 # -------------------------------------------------
-#Leia dois vetores de 10 posiÁıes cada. Armazene em um vetor de 20 posiÁıes os elementos
-#do vetor 1 depois os elementos do vetor 2. No final imprima os trÍs vetores.
+#Leia dois vetores de 10 posi√ß√µes cada. Armazene em um vetor de 20 posi√ß√µes os elementos
+#do vetor 1 depois os elementos do vetor 2. No final imprima os tr√™s vetores.
 #vet1 = [0.0]*10
 #vet2 = [0.0]*10
 #vetFinal = []
@@ -121,7 +121,7 @@
 #print vetFinal
 #print len(vetFinal)
 # -------------------------------------------------
-#Leia dois vetores de 15 posiÁıes cada, imprimir a soma dos elementos #dos vetores e a diferenÁa dos elementos dos vetores.
+#Leia dois vetores de 15 posi√ß√µes cada, imprimir a soma dos elementos #dos vetores e a diferen√ßa dos elementos dos vetores.
 #vet1=[0.0]*15
 #vet2=[0.0]*15
 
@@ -141,7 +141,7 @@
 #Vet(vet1)
 #Vet(vet2)
 #print "soma vetor 1 + vetor 2:  ", SomaVetor(vet1) + SomaVetor(vet2)
-#print "diferenÁa vetor 1 - vetor 2:  ",  SomaVetor(vet1) - SomaVetor(vet2)  
+#print "diferen√ßa vetor 1 - vetor 2:  ",  SomaVetor(vet1) - SomaVetor(vet2)  
 # -------------------------------------------------
 #Leia uma frase e imprima as suas palavras.
 #
@@ -172,8 +172,8 @@
 #print "resto: ", resto
 # -------------------------------------------------
 
-#Fazer um programa para ler dois vetores de 10 posiÁıes e colocar em um outro vetor de no m·ximo 20 posiÁıes a uni„o dos elementos. 
-#Colocar em um vetor de 10 posiÁıes a intercecÁ„o dos dois vetores.
+#Fazer um programa para ler dois vetores de 10 posi√ß√µes e colocar em um outro vetor de no m√°ximo 20 posi√ß√µes a uni√£o dos elementos. 
+#Colocar em um vetor de 10 posi√ß√µes a intercec√ß√£o dos dois vetores.
 
 #limite = 5
 #Vet1 = [0.0]*limite
@@ -210,7 +210,7 @@
 #print "Uniao: ", vetFinal
 #print Intesecao(Vet1, Vet2)
 # -------------------------------------------------
-#FaÁa um programa para ler 50 valores de temperaturas em graus Celsius. #Transformar essas temperaturas em Farenheit e imprimir a media das temperaturas em Celsius e Farenheit e 
+#Fa√ßa um programa para ler 50 valores de temperaturas em graus Celsius. #Transformar essas temperaturas em Farenheit e imprimir a media das temperaturas em Celsius e Farenheit e 
 #quantas temperaturas ficaram acima da media em Farenheit.
 
 #limite = 5
@@ -256,3 +256,192 @@
 #mediaF = Media(vetTempFarenheit)
 #print "media celcius: ", mediaC, "media F: ", mediaF
 #print "quantidade de F acima da media: ", MediaQtd(vetTempFarenheit,mediaF)
+
+#--------------------------------------------------------
+
+#14.	Leia uma string e imprima se ela √© um palindromo. Um palindromo √© uma cadeia que pode ser lida de frente para tr√°s e de tr√°s para frente.  Ex: ‚ÄòSOMOS‚Äô    ‚Äò1234321‚Äô
+
+#string = raw_input('diga a primeira palavra')
+#stringInversa = ""
+#cont = 1
+#for i in range(0, len(string)):
+#    stringInversa += string[cont*-1]
+#    cont +=1
+
+#if (string == stringInversa):
+#  print "√â um polindromo", string, " igual a ", #stringInversa
+#else:
+#  print "N√£o √© um polindromo", string, " diferente de ", stringInversa 
+
+#--------------------------------------------------------
+#15.	Leia uma matriz 5x5 e imprima o valor do maior elemento.Imprima tamb√©m a linha e coluna desse elemento.
+
+#def cMat(x,y):                              
+#    print "Digite os valores da matriz ",x,"x",y
+#    mat = [0]*x
+#    for i in range(0,x):
+#        mat[i]= [0]*y
+#        for j in range(0,y):
+#            mat[i][j]=int(input("Digite aqui: "))
+#    return mat
+#
+#def Maior(mat, x, y):
+#    linha = 0 
+#    coluna= 0  
+#    numeroMaior = 0
+#    for i in range(0,x):
+#        for j in range(0,y):
+#            numero = mat[i][j]
+#            if (numero > numeroMaior):
+#              numeroMaior = numero
+#              linha = i + 1
+#              coluna = j + 1
+#
+#    return numeroMaior, linha, coluna
+
+#Nlinha = 5
+#Ncoluna = 5
+#Matriz = cMat(Nlinha, Ncoluna)
+#print Matriz
+#Maior = Maior(Matriz, Nlinha, Ncoluna)
+#print "o numero, sua linha e coluna √©", Maior
+
+#--------------------------------------------------------
+#16.	Leia uma matriz 7x7 e imprima a soma dos elementos da linha 6. Imprima tambem a soma dos elementos da coluna 2. Imprima tamb√©m a soma dos elementos da diagonal principal. Imprima tamb√©m o elemento da linha 3 e  coluna 4. Imprima tamb√©m a soma de todos os elementos pares da matriz. 
+
+
+#def cMat(x,y):                              
+#    print "Digite os valores da matriz ",x,"x",y
+#    mat = [0]*x
+#    for i in range(0,x):
+#        mat[i]= [0]*y
+#        for j in range(0,y):
+#            mat[i][j]=int(input("Digite aqui: "))
+#    return mat
+
+#def SomaLinha(mat, coluna): 
+#  linha = int(input('linha: '))
+#  linha = linha - 1
+#  somaLinha = 0
+#  for j in range(0, coluna):
+#      somaLinha += mat[linha][j]
+#  return somaLinha
+
+#def SomaColuna(mat, linha): 
+#  coluna = int(input("Digite a coluna: "))
+#  coluna = coluna - 1
+#  somaColuna = 0
+#  for j in range(0, linha):
+#      somaColuna += mat[j][coluna]
+#  return somaColuna
+
+#def SomaDiagonalPrincipal(Matriz, coluna):
+#  somaDiagonalPrincipal = 0
+#  for i in range(0, coluna):
+#    somaDiagonalPrincipal += Matriz[i][i]
+#  return somaDiagonalPrincipal
+
+#def SomaPares(matriz, linha, coluna):
+#  somaPares = 0
+#  for i in range(0, linha):
+#    for j in range(0, coluna):
+#      numero = matriz[i][j]
+#      if (numero%2 == 0):
+#        somaPares += numero
+#  return somaPares
+
+#Linha = 3
+#Coluna = 3 
+#Matriz = cMat(Linha, Coluna)
+#print Matriz
+
+#MatrizLinha = SomaLinha(Matriz, Coluna)
+#print "Soma das Linhas: ", MatrizLinha
+
+#MatrizColuna = SomaColuna(Matriz, Linha)
+#print "Soma das Colunas: ", MatrizColuna
+
+#MatrizDiagonalPrincipal = SomaDiagonalPrincipal(Matriz, Coluna)
+#print "Soma das Diagonal Principal: ", MatrizDiagonalPrincipal
+
+#MatrizPares = SomaPares(Matriz, Linha, Coluna)
+#print "Soma elementos pares: ", MatrizPares
+#-------------------------------------------------------
+#17.	Crie uma matriz 5x5 com 1 na diagonal principal e 0 nas outras posi√ß√µes. Imprima a matriz.
+                              
+#mat = [0]*5
+#for i in range(0,5):
+#    mat[i]= [0]*5
+#    for j in range(0,5):
+#      if (i == j):
+#        mat[i][j] = 1
+#      else: 0
+#print mat
+#-------------------------------------------------------
+#18. Leia uma matriz 6x6 e conte quantos elementos maiores que 10 existem na matriz. Imprima esse valor e a matriz.
+
+#def cMat(x,y):                              
+#    print "Digite os valores da matriz ",x,"x",y
+#    mat = [0]*x
+#    for i in range(0,x):
+#        mat[i]= [0]*y
+#        for j in range(0,y):
+#            mat[i][j]=int(input("Digite aqui: "))
+#    return mat
+
+#def MaiorDez(matriz, linha, coluna):
+#  cont = 0
+#  for i in range(0, linha):
+#    for j in range (0, coluna):
+#      numero = matriz[i][j]
+#      if numero > 10:
+#        cont+=1
+#  return cont
+
+#linha = 3
+#coluna = 3
+#Matriz = cMat(linha, coluna)
+#MaiorDez = MaiorDez(Matriz, linha, coluna)
+#print "Matriz: ", Matriz
+#print "Quantidade de elementos maiores que 10: ", #MaiorDez
+#-------------------------------------------------------
+#19.Leia uma matriz 4x4 e um valor X, procure a primeira vez que esse valor aparece na matriz imprimindo sua linha e coluna. Cason n√£o exista o elemento, imprima uma mensagem de erro.
+
+#def cMat(x,y):                              
+#  print "Digite os valores da matriz ",x,"x",y
+#  mat = [0]*x
+#  for i in range(0,x):
+#      mat[i]= [0]*y
+#      for j in range(0,y):
+#          mat[i][j]=int(input("Digite aqui: "))
+#  return mat
+
+#def Localizar(matriz, linha, coluna):
+#  procurado = int(input('Diga o numero que voce procura'))
+#  achou = False
+#  for i in range(0, linha):
+#    for j in range(0, coluna):
+#      numero = matriz[i][j]
+#      if(numero == procurado):
+#        achou = True
+#        linhaProcurado = i + 1 
+#        ColunaProcurado = j + 1
+#        return linhaProcurado, ColunaProcurado
+
+
+
+#def pMat(mat,x,y):
+#    print
+#    M = mat
+#   for i in range(0,x):
+#        for j in range(0,y):
+#            print "%10d" % mat[i][j],
+#        print
+
+#Linha = 4
+#Coluna = 4
+#Matriz = cMat(Linha, Coluna)
+#print pMat(Matriz, Linha, Coluna)
+
+#Procurado = Localizar(Matriz, Linha, Coluna)
+#print "Linha e Coluna ", Procurado
