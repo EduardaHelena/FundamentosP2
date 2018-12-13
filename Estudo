@@ -1,0 +1,61 @@
+
+#1.	Crie uma modulo para ler uma matriz
+#	Somar os pares da linha 3
+#	Somar os impar da coluna 7 
+
+#def cMat(7,7):                              
+#    print "Digite os valores da matriz ",x,"x",y
+#    mat = [0]*x
+#    for i in range(0,x):
+#        mat[i]= [0]*y
+#        for j in range(0,y):
+#            mat[i][j]=int(input("Digite aqui: "))
+#    return mat
+
+#def SomaLinhaPar(mat, coluna): 
+#  linha = int(input('linha: '))
+#  linha = linha - 1
+#  somaLinha = 0
+#  for j in range(0, coluna):
+#    numero = mat[linha][j]
+#    if(numero %2 == 0):
+#      somaLinhaPar += numero
+#  return somaLinhaPar
+
+#def SomaColunaImpar(mat, linha): 
+#  coluna = int(input("Digite a coluna: "))
+#  coluna = coluna - 1
+#  somaColuna = 0
+#  for j in range(0, linha):
+#    numero = mat[j][coluna]
+#    if(numero %2 == 0):
+#      somaColunaImpar += numero
+#  return somaColuna
+
+#Matriz = cMat(10, 10)
+#print Matriz
+
+#MatrizLinha = SomaColunaImpar(Matriz, 3)
+#print "Soma das Linhas: ", MatrizLinha
+
+#MatrizColuna = SomaColunaImpar(Matriz, 7)
+#print "Soma das Colunas: ", MatrizColuna
+
+#--------------------------------------------------------------
+#2.	Modulo que receba uma matriz 
+#e que some os elemtnso que tenham em seu norte, sul., lest e oeste
+#--------------------------------------------------------------
+
+#3.	Leia uma string e imprima se ela é um palindromo. Um palindromo é uma cadeia que pode ser lida de frente para trás e de trás para frente.  Ex: ‘SOMOS’    ‘1234321’
+
+#string = raw_input('diga a primeira palavra')
+#stringInversa = ""
+#cont = 1
+#for i in range(0, len(string)):
+#    stringInversa += string[cont*-1]
+#    cont +=1
+
+#if (string == stringInversa):
+#  print "É um polindromo", string, " igual a ", #stringInversa
+#else:
+#  print "Não é um polindromo", string, " diferente de ", stringInversa
