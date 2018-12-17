@@ -445,3 +445,55 @@
 
 #Procurado = Localizar(Matriz, Linha, Coluna)
 #print "Linha e Coluna ", Procurado
+
+#20.	Leia uma matriz 4x4 e troque os valores da 2 linha pelo da quarta coluna. Imprima a matriz original e a matriz trocada. 
+
+#def cMat(x,y):                            
+#  print "Digite os valores da matriz ",x,"x",y
+#  mat = [0]*x
+#  for i in range(0,x):
+#      mat[i]= [0]*y
+#      for j in range(0,y):
+#          mat[i][j]=int(input("Digite aqui: "))
+#  return mat
+
+
+#def Troca(Matriz, limite):
+#  vetLinha=[0]*limite # para os elementos linha 2
+#  vetColuna=[0]*limite # pra os elementos coluna 4
+#  m = Matriz
+#  for i in range(0, limite):
+#    numero = m[1][i]
+#    vetLinha[i]= numero
+#
+#    numero2 = m[i][3]
+#    vetColuna[i]= numero2
+#
+#  print vetLinha, vetColuna
+#
+#  for i in range(0, limite):
+#    numeroLinha = vetColuna[i]
+#    m[1][i] = numeroLinha
+#    
+#    numeroColuna = vetLinha[i]
+#    m[i][3] = numeroColuna
+#  return m
+
+#def pMat(mat,x,y):
+#  print
+#  M = mat
+#  for i in range(0,x):
+#      for j in range(0,y):
+#          print "%3d" % mat[i][j],
+#      print
+
+ 
+#linha = 4
+#coluna = 4
+#Matriz = cMat(linha, coluna)
+#print pMat(Matriz, linha, coluna)
+#Matriz2 = Troca(Matriz, coluna)
+#print pMat(Matriz2, linha, coluna)
+
+
+
