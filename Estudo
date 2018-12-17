@@ -1,9 +1,7 @@
+#Crie um modulo que receba uma matriz 10x10 e retorne a
+#soma dos elementos pares da linha 3 menos a soma dos elementos de indice impar da coluna 7
 
-#1.	Crie uma modulo para ler uma matriz
-#	Somar os pares da linha 3
-#	Somar os impar da coluna 7 
-
-#def cMat(7,7):                              
+#def cMat(x,y):                              
 #    print "Digite os valores da matriz ",x,"x",y
 #    mat = [0]*x
 #    for i in range(0,x):
@@ -12,50 +10,89 @@
 #            mat[i][j]=int(input("Digite aqui: "))
 #    return mat
 
-#def SomaLinhaPar(mat, coluna): 
-#  linha = int(input('linha: '))
-#  linha = linha - 1
-#  somaLinha = 0
-#  for j in range(0, coluna):
-#    numero = mat[linha][j]
-#    if(numero %2 == 0):
-#      somaLinhaPar += numero
-#  return somaLinhaPar
+#def DiferencaSomas(matriz,linha, coluna):
+#    SomaLinha = 0
+#    SomaColuna = 0
+#    for i in range(0, coluna):
+#        SomaLinha += matriz[1][i]
+#        
+#    for i in range(0, linha):
+#        if (i%2 != 0):
+#            SomaColuna += matriz[i][1]
+#    resultado = SomaLinha - SomaColuna
+#    return resultado
+#    
 
-#def SomaColunaImpar(mat, linha): 
-#  coluna = int(input("Digite a coluna: "))
-#  coluna = coluna - 1
-#  somaColuna = 0
-#  for j in range(0, linha):
-#    numero = mat[j][coluna]
-#    if(numero %2 == 0):
-#      somaColunaImpar += numero
-#  return somaColuna
 
-#Matriz = cMat(10, 10)
+#linha = 5
+#coluna = 5
+#Matriz1 = cMat(linha, coluna)
+#print Matriz1
+#Resultado = DiferencaSomas(Matriz1, linha, coluna)
+#print ""
+#print "A diferença é: " Resultado
+
+#--------------------------------------------
+
+#Crie um modulo que receba uma matriz 100x100 e
+#que some os elementos vizinhos que tenham em seu norte sul leste e oeste 0 
+
+#def cMat(x,y):                              
+#    print "Digite os valores da matriz ",x,"x",y
+#    mat = [0]*x
+#    for i in range(0,x):
+#        mat[i]= [0]*y
+#        for j in range(0,y):
+#            mat[i][j]=int(input("Digite aqui: "))
+#    return mat
+#
+#def Soma(matriz, linha, coluna):
+#    LinhaVerdade = linha - 2
+#    ColunaVerdade = coluna - 2
+#    Soma = 0
+#    for i in range(1, LinhaVerdade ):
+#        for j in range(1, ColunaVerdade):
+#            if(matriz[i-1][j] == 0 and matriz[i+1][j] == 0 and matriz[i][j-1]== 0 and matriz[i][j+1]== 0):
+#                numero = Matriz[i][j]
+#                print "numero: ", numero
+#                Soma = Soma + numero
+#    return Soma
+#    
+#linha = 5
+#coluna = 5
+#Matriz = cMat(linha,coluna)
 #print Matriz
+#Soma = Soma(Matriz, linha, coluna)
+#print " A soma dos elementos é", Soma
+#------------------------------------------------
 
-#MatrizLinha = SomaColunaImpar(Matriz, 3)
-#print "Soma das Linhas: ", MatrizLinha
 
-#MatrizColuna = SomaColunaImpar(Matriz, 7)
-#print "Soma das Colunas: ", MatrizColuna
+#Crie um vetor que retorna 0 se a string for uma (arara)"
+#é igual de traz p frente) e retone N para cada par diferente
+#
 
-#--------------------------------------------------------------
-#2.	Modulo que receba uma matriz 
-#e que some os elemtnso que tenham em seu norte, sul., lest e oeste
-#--------------------------------------------------------------
-
-#3.	Leia uma string e imprima se ela é um palindromo. Um palindromo é uma cadeia que pode ser lida de frente para trás e de trás para frente.  Ex: ‘SOMOS’    ‘1234321’
-
-#string = raw_input('diga a primeira palavra')
-#stringInversa = ""
-#cont = 1
-#for i in range(0, len(string)):
-#    stringInversa += string[cont*-1]
-#    cont +=1
-
-#if (string == stringInversa):
-#  print "É um polindromo", string, " igual a ", #stringInversa
-#else:
-#  print "Não é um polindromo", string, " diferente de ", stringInversa
+#def Polindromo(string):
+#    cont = 1
+#    limite = len(string)
+#    stringFInal = ""
+#    
+#    for i in range(0, len(string)):
+#        stringFInal += string[cont*-1]
+#        cont +=1
+#        
+#    if (string == stringFInal):
+#        vet = [0]*1
+#        return vet
+#    else:
+#         cont = 1
+#         final = len(string)/2
+#         vet = [0]*final
+#         for i in range(0, final):
+#             if (string[i] != string[cont*-1]):
+#                 vet[i] = "N"
+#             cont +=1
+#         return vet
+#            
+#string = raw_input('diga a primeira palavra: ')
+#vet = Polindromo(string)
+#print vet
